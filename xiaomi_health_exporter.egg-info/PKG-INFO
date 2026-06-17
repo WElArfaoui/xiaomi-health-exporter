@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: xiaomi-health-exporter
+Version: 1.0.0
+Summary: Download your Xiaomi Mi Fitness health data (sleep, HR, SpO2, steps) via the official GDPR export. Single account or bulk.
+Author-email: Wasim El Arfaoui <elarfaouiwasim@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/WElArfaoui/xiaomi-health-exporter
+Project-URL: Issues, https://github.com/WElArfaoui/xiaomi-health-exporter/issues
+Keywords: xiaomi,mi-fitness,mi-band,wearable,health-data,gdpr,export,research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: playwright>=1.40
+Requires-Dist: imap-tools>=1.0
+Requires-Dist: pyzipper>=0.3
+Dynamic: license-file
+
 # Xiaomi Mi Fitness — Health Data Exporter
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xiaomi-health-exporter"
+version = "1.0.0"
+description = "Download your Xiaomi Mi Fitness health data (sleep, HR, SpO2, steps) via the official GDPR export. Single account or bulk."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Wasim El Arfaoui", email = "elarfaouiwasim@gmail.com" }]
+keywords = ["xiaomi", "mi-fitness", "mi-band", "wearable", "health-data", "gdpr", "export", "research"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "playwright>=1.40",
+    "imap-tools>=1.0",
+    "pyzipper>=0.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/WElArfaoui/xiaomi-health-exporter"
+Issues = "https://github.com/WElArfaoui/xiaomi-health-exporter/issues"
+
+[project.scripts]
+xiaomi-export = "xiaomi_export.cli:main"
+
+[tool.setuptools]
+packages = ["xiaomi_export"]
