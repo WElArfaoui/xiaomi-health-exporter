@@ -1,2 +1,0 @@
-[console_scripts]
-xiaomi-export = xiaomi_export.cli:main

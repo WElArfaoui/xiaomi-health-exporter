@@ -16,3 +16,8 @@ xiaomi_data/
 __pycache__/
 *.pyc
 .DS_Store
+
+# build artifacts
+*.egg-info/
+build/
+dist/
