@@ -1,0 +1,3 @@
+email,password,imap_password,label
+watch01@example.com,XiaomiPass1,,watch01
+watch02@example.com,XiaomiPass2,MailboxPass2,watch02
